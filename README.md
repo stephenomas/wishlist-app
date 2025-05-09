@@ -2,7 +2,7 @@
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/wishlist-api.git
+git clone https://github.com/stephenomas/wishlist-app.git
 cd wishlist-api
 
 ### 2. Install Dependencies
@@ -41,36 +41,36 @@ POST /api/login
   "password": "secret"
 }
 
-Logout
-POST /api/logout
-(Requires auth token in Authorization header)
+Logout  
+POST /api/logout  
+(Requires auth token in Authorization header)  
 
-Products
-Get All Products
-GET /api/products
+Products  
+Get All Products  
+GET /api/products  
 
-Wishlist
-Get Wishlist
-GET /api/wishlist
-Requires Auth
+Wishlist  
+Get Wishlist  
+GET /api/wishlist  
+Requires Auth  
 
-Add Product to Wishlist
-POST /api/wishlist/{productId}
-Requires Auth
+Add Product to Wishlist  
+POST /api/wishlist/{productId}  
+Requires Auth  
 
-Remove Product from Wishlist
-DELETE /api/wishlist/{productId}
-Requires Auth
+Remove Product from Wishlist  
+DELETE /api/wishlist/{productId}  
+Requires Auth  
 
 ### Testing
 
-To run tests:
+To run tests:  
 
-php artisan test
-This includes:
+php artisan test  
+This includes:  
 
-User registration/login tests
+User registration/login tests  
 
-Wishlist feature tests
+Wishlist feature tests  
 
-Product retrieval tests
+Product retrieval tests  
