@@ -21,6 +21,10 @@ php artisan key:generate
 
 php artisan migrate --seed
 
+### 6.  Start the App
+
+php artisan serve
+
 ### API Documentation
 
 Register
